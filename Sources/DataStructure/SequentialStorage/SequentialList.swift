@@ -119,4 +119,3 @@ struct SequentialList<Data: Equatable> {
         last = -1
     }
 }
-
