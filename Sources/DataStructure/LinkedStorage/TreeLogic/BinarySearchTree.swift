@@ -56,7 +56,7 @@ class BinarySearchTree<Data: Comparable> {
         return node
     }
     
-    /// 查询二叉搜索树中指定数据的地址
+    /// 查寻二叉搜索树中指定数据的地址
     /// - Parameters:
     ///   - data: 指定数据
     ///   - node: 遍历结点

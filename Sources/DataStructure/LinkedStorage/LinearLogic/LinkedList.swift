@@ -66,7 +66,7 @@ class LinkedList<Data: Equatable> {
         }
     }
     
-    /// 查询链表中指定数据的地址
+    /// 查寻链表中指定数据的地址
     /// - Parameter data: 指定数据
     /// - Returns: 结点地址
     func firstAddress(of data: Data) -> Node<Data>? {
@@ -75,8 +75,8 @@ class LinkedList<Data: Equatable> {
         }
     }
     
-    /// 查询链表中符合条件的第一个地址
-    /// - Parameter predicate: 查询条件
+    /// 查寻链表中符合条件的第一个地址
+    /// - Parameter predicate: 查寻条件
     /// - Returns: 结点地址
     func firstAddress(where predicate: (Node<Data>) -> Bool) -> Node<Data>? {
         var current = first

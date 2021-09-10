@@ -50,7 +50,7 @@ struct SequentialList<Data: Equatable> {
         }
     }
     
-    /// 查询顺序表中指定数据的第一个索引
+    /// 查寻顺序表中指定数据的第一个索引
     /// - Parameter data: 指定数据
     /// - Returns: 索引
     func firstIndex(of data: Data) -> Int? {
@@ -59,8 +59,8 @@ struct SequentialList<Data: Equatable> {
         }
     }
     
-    /// 查询顺序表中符合条件的第一个索引
-    /// - Parameter predicate: 查询条件
+    /// 查寻顺序表中符合条件的第一个索引
+    /// - Parameter predicate: 查寻条件
     /// - Returns: 索引
     func firstIndex(where predicate: (Data) -> Bool) -> Int? {
         for (index, data) in dataArray.enumerated() {
